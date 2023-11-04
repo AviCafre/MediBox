@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap');
+/* FONTS
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Poppins', sans-serif; */
+
+
+body{
+    background: url(images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.head{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(170, 233, 241);
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+h1, h2{
+    font-family: 'Edu TAS Beginner', cursive;
+    width: 500px;
+}
+.portada{
+    
+}
+.cuentas{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    column-gap: 20px;
+}
+.card mb-3{}
+.row{}
+
