@@ -11,7 +11,7 @@ body{
     
 }
 
-.head{
+.head-box{
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -23,16 +23,73 @@ body{
 h1, h2{
     font-family: 'Edu TAS Beginner', cursive;
     width: 500px;
-}
-.portada{
-    
-}
-.cuentas{
+}.cuentas{
     display: grid;
     justify-content: center;
     grid-template-columns: 500px 500px;
     column-gap: 20px;
 }
-.card mb-3{}
-.row{}
+footer{
+    background-color: rgb(14, 115, 122);
+    
+}
+footer ul{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    justify-content: center;
+}
+footer ul li{
+    padding:  0 100px;
+    justify-content: center;
+    color: rgb(170, 233, 241);
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 375px){
+    body{
+        width: 374px;
+        background: url(images/1-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .head-box{
+        margin: 15px;
+        display: block;
+        flex-direction: column;
+        color: rgb(170, 233, 241);
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+   .h1, .h2{
+        font-family: 'Edu TAS Beginner', cursive;
+        width: 80px;
+    }
+    .cuentas{
+        display: inline-block;
+        justify-content: center;
+        width: 250px;
+        margin: 25px;
+    }
+    
+    footer{
+        background-color: rgb(14, 115, 122);
+        width: 360px;
+    }
+    footer ul{
+        display: flex;
+        margin: 10px;
+        list-style: none;
+        justify-content: center;
+    }
+    footer ul li{
+        padding:  0 10px;
+        justify-content: center;
+        color: rgb(170, 233, 241);
+        font-weight: bold;
+    }
+}
 
