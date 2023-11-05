@@ -20,7 +20,7 @@ body{
     align-items: center;
     width: 90%;
 }
-h1, h2{
+.hd, .hf{
     font-family: 'Edu TAS Beginner', cursive;
     width: 500px;
 }.cuentas{
@@ -48,7 +48,6 @@ footer ul li{
 }
 
 
-
 @media (max-width: 414px){
     body{
         width: 374px;
@@ -62,13 +61,53 @@ footer ul li{
         flex-direction: column;
         width: 200px;
     }
-   .h1, .h2{
+   .hd, .hf{
         width: 80px;
     }
     .cuentas{
         display: inline-block;
         width: 250px;
         margin: 25px;
+    }
+    
+    footer{
+        width: 360px;
+    }
+    
+    footer ul li{
+        padding:  0 10px;
+    }
+}
+@media (max-width: 736px){
+    body{
+        width: 720px;
+        background: url(images/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+        width: 400px;
+    }
+    .head-box{
+        margin: 15px;
+        display: block;
+        flex-direction: column;
+        width: 100px;
+    }
+   .hd{
+        font-size: 30px;
+        display: flex;
+        margin-left: 40px;
+    }
+    .hf{
+        font-size: 20px;
+        display: flex;
+        margin-left: 40px;
+    }
+    .cuentas{
+        display: inline-block;
+        width: 210px;
+        margin: 45px;
     }
     
     footer{
