@@ -62,7 +62,11 @@ footer ul li{
         width: 200px;
     }
    .hd, .hf{
-        width: 80px;
+        width: 150px;
+        
+    }
+    .hf{
+        font-size: 80px;
     }
     .cuentas{
         display: inline-block;
