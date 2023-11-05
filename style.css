@@ -29,6 +29,7 @@ h1, h2{
     grid-template-columns: 500px 500px;
     column-gap: 20px;
 }
+ 
 footer{
     background-color: rgb(14, 115, 122);
     
@@ -48,7 +49,7 @@ footer ul li{
 
 
 
-@media (max-width: 375px){
+@media (max-width: 414px){
     body{
         width: 374px;
         background: url(images/1-1.jpg);
@@ -59,37 +60,23 @@ footer ul li{
         margin: 15px;
         display: block;
         flex-direction: column;
-        color: rgb(170, 233, 241);
-        justify-content: center;
-        align-items: center;
         width: 200px;
     }
    .h1, .h2{
-        font-family: 'Edu TAS Beginner', cursive;
         width: 80px;
     }
     .cuentas{
         display: inline-block;
-        justify-content: center;
         width: 250px;
         margin: 25px;
     }
     
     footer{
-        background-color: rgb(14, 115, 122);
         width: 360px;
     }
-    footer ul{
-        display: flex;
-        margin: 10px;
-        list-style: none;
-        justify-content: center;
-    }
+    
     footer ul li{
         padding:  0 10px;
-        justify-content: center;
-        color: rgb(170, 233, 241);
-        font-weight: bold;
     }
 }
 
