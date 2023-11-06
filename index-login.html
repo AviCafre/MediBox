@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medibox</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body>
+    <header></header>
+    <section>
+        <form class="login">
+
+            <h1>MediBox</h1>
+
+            <div class="inputbox">
+                <input type="text" required>
+                <label>Nombre</label>
+            </div>
+            <div class="inputbox" required>
+                <input type="text">
+                <label>Apellido</label>
+            </div>
+            <div class="inputbox" required>
+                <input type="number">
+                <label>Nº DNI</label>
+            </div>
+            <div class="inputbox">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="inputbox">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="forget">
+                <label><input type="checkbox" required>Estoy de acuerdo con las politicas de privacidad. <a>Acuerdos legales de privacidad</a></label>
+            </div>
+            <button>
+                Ingreso
+            </button>
+            <div class="para">
+                <p>No tengo cuenta. <a href="#" id="signup">Registro</a></p>
+            </div>
+            
+        </form>
+    </section>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#login"). click(function(){
+                $(".login"). hide();
+                $(".login"). show();
+            });
+        })
+    </script> -->
+</body>
+</html>
