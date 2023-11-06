@@ -29,7 +29,7 @@ body{
     grid-template-columns: 500px 500px;
     column-gap: 20px;
 }
- 
+
 footer{
     background-color: rgb(14, 115, 122);
     
@@ -68,6 +68,7 @@ footer ul li{
     .hf{
         font-size: 80px;
     }
+    
     .cuentas{
         display: inline-block;
         width: 250px;
