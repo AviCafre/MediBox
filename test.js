@@ -6,7 +6,7 @@ Swal.fire({
     grow: '1row',
     backdrop: true,
     toast: true,
-    position: 'bottom',
+    position: 'top',
     allowOutsideClick: false,
     allowEscapeKey: false,
     stopKeydownPropagation: false,
