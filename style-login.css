@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url(/images/10.jpg);
+    background: url(images/2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -112,4 +112,4 @@ button{
 }
 .para p a:hover{
     text-decoration: underline;
-}
+}/* */
