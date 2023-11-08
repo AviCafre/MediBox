@@ -29,6 +29,13 @@ body{
     grid-template-columns: 500px 500px;
     column-gap: 20px;
 }
+.card .mb-3{
+    max-width: 540px; 
+    background-color: #ffffff26;
+    backdrop-filter: blur(50px); 
+    background-position: cover; 
+    background-size: cover;
+}
 
 footer{
     background-color: rgb(14, 115, 122);
@@ -48,15 +55,17 @@ footer ul li{
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 760px){
     body{
+        width: 700px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 374px;
         background: url(images/2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    header{
+        width: 400px;
+        height: 200px;
     }
     .head-box{
         margin: 15px;
@@ -71,11 +80,14 @@ footer ul li{
     .hf{
         font-size: 80px;
     }
+    .portada{
+        max-width: 600px;
+    }
     
     .cuentas{
         display: inline-block;
-        width: 250px;
-        margin: 25px;
+        margin: 5px;
+        width: 200px;
     }
     
     footer{
@@ -86,47 +98,8 @@ footer ul li{
         padding:  0 10px;
     }
 }
-@media (max-width: 736px){
-    body{
-        width: 720px;
-        background: url(images/2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    header{
-        width: 400px;
-    }
-    .head-box{
-        margin: 15px;
-        display: block;
-        flex-direction: column;
-        width: 100px;
-    }
-   .hd{
-        font-size: 30px;
-        display: flex;
-        margin-left: 40px;
-    }
-    .hf{
-        font-size: 20px;
-        display: flex;
-        margin-left: 40px;
-    }
-    .cuentas{
-        display: inline-block;
-        width: 210px;
-        margin: 45px;
-    }
-    
-    footer{
-        width: 360px;
-    }
-    
-    footer ul li{
-        padding:  0 10px;
-    }
-}
-@media (max-width: 360px){
+
+@media (max-width: 460px){
     body{
         width: 320px;
         background: url(images/2.jpg);
