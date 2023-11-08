@@ -29,13 +29,7 @@ body{
     grid-template-columns: 500px 500px;
     column-gap: 20px;
 }
-.card .mb-3{
-    max-width: 540px; 
-    background-color: #ffffff26;
-    backdrop-filter: blur(50px); 
-    background-position: cover; 
-    background-size: cover;
-}
+
 
 footer{
     background-color: rgb(14, 115, 122);
