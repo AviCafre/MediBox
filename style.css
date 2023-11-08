@@ -54,7 +54,7 @@ footer ul li{
         align-items: center;
         justify-content: center;
         width: 374px;
-        background: url(images/10.jpg);
+        background: url(images/2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -89,7 +89,7 @@ footer ul li{
 @media (max-width: 736px){
     body{
         width: 720px;
-        background: url(images/10.jpg);
+        background: url(images/2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -126,4 +126,59 @@ footer ul li{
         padding:  0 10px;
     }
 }
+@media (max-width: 360px){
+    body{
+        width: 320px;
+        background: url(images/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+    header{
+        width: 400px;
+        height: 200px;
+    }
+    .portada{
+        margin: 20px;
+    }
+    
+    .head-box{
+        position:absolute;
+        top: 0;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        
+    }
+   .hd{
+        font-size: 30px;
+        display: flex;
+        margin-left: 40px;
+    }
+    .hf{
+        font-size: 20px;
+        display: flex;
+        margin-left: 40px;
+    }
 
+    .portada{
+        margin-top: 80px;
+    }
+    .cuentas{
+        display: inline-block;
+        width: 210px;
+        margin: 45px;
+        padding:20px;
+        
+    }
+    
+    footer{
+        width: 360px;
+    }
+    
+    footer ul li{
+        padding:  0 10px;
+    }
+}
