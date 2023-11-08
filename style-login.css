@@ -112,4 +112,9 @@ button{
 }
 .para p a:hover{
     text-decoration: underline;
-}/* */
+}
+@media (max-width: 360px) {
+    .caja{
+        width: 280px;
+    }
+}
